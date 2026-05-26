@@ -19,6 +19,9 @@ repositories {
 }
 
 dependencies {
+    // Source: https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-starter-s3
+    implementation("io.awspring.cloud:spring-cloud-aws-starter-s3:4.0.2")
+
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("tools.jackson.module:jackson-module-kotlin")
