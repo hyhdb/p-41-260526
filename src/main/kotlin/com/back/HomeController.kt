@@ -11,6 +11,7 @@ class HomeController(
 
     @Value("\${custom.secretWord}")
     private val secretWord: String = ""
+
 ) {
 
     @GetMapping
